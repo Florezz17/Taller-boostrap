@@ -1,0 +1,58 @@
+/* Paleta personalizada */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  opacity: 0.85;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.hero-img {
+  max-width: 280px;
+}
+
+/* Tarjetas proyectos */
+.project-card {
+  background-color: #121212;
+  border: none;
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+}
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Habilidades */
+.skill-box {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  transition: transform 0.3s, background 0.3s;
+}
+.skill-box:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, #2c5364, #203a43);
+}
